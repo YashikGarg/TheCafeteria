@@ -70,7 +70,6 @@ And Also Replace YOUR Eamil And Password In <b>sendmsg.php(Ln 52,Ln 53,Ln 60) -
 <b> And For Creating Database Use This Command - </b>
 
 ```
-DROP TABLE IF EXISTS `members`;
 CREATE TABLE IF NOT EXISTS `members` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `fname` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
@@ -78,7 +77,8 @@ CREATE TABLE IF NOT EXISTS `members` (
   `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 ```
 
 ___

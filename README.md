@@ -50,16 +50,18 @@ ___
 
 After Clonning Make Changes Of Database Infornation  in <b> add.php(Ln 3) , check.php(Ln 3) and sendmsg.php(Ln 4)</b>
 
-<b>Replace This - </b>
+<b>Replace This - </b><b>
+  
 ```
 $conn=new mysqli('localhost','root','','cafe');
 ```
-<b>With - </b>
+
+</b><b>With - </b><b>
 
 ```
 $conn=new mysqli('localhost',Your_DB_User,Your_DB_Password,Your_DB_Name);
 ```
-And Also Replace YOUR Eamil And Password In <b>sendmsg.php(Ln 52,Ln 53,Ln 60) - 
+</b>And Also Replace YOUR Eamil And Password In <b>sendmsg.php(Ln 52,Ln 53,Ln 60) - 
 ```
 53. $mail->Username = 'infothecafeteria@gmail.com';    //Replace With Your Mail
 54. $mail->Password = 'xxxxxxxxxxxx';                  //Replace With Your Mail Password 

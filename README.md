@@ -2,7 +2,7 @@
 
 <b>😉 Heyyy !! Nice To See you!! </b> I made cafeteria website using php with login/register authentication (using mysql database)
 
-<b> Link - </b> <a href= "https://thecafeteria.000webhostapp.com/">https://thecafeteria.000webhostapp.com/</a>
+<b> Link - </b> <a href= "http://thecafeteria.42web.io/">http://thecafeteria.42web.io/</a>
 ____
 
 # ✨ Some Salient Feature
